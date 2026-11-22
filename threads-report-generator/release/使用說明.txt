@@ -1,0 +1,9 @@
+﻿Threads 帳號報告工具（免安裝版）
+
+使用方式：解壓縮完整資料夾後，雙擊 Threads報告工具.exe。
+工具會在瀏覽器開啟本機報告頁；關閉啟動視窗中的「結束工具」即可停止服務。
+第一次選擇「登入瀏覽器讀取」時，請在另開的 Microsoft Edge 手動登入 Threads，再回報告頁分析。
+登入資料保存在此資料夾的 .local\threads-browser-profile。
+
+請勿只移動 exe；node.exe、node_modules、server.js 與 public 都是執行所需檔案。
+若啟動失敗，請查看 threads-report.log。
